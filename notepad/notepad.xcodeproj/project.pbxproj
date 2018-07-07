@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091CDE7020F1046F00F79CC8 /* Bill.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CDE6F20F1046F00F79CC8 /* Bill.m */; };
+		091CDE7320F1083200F79CC8 /* RealmTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CDE7220F1083200F79CC8 /* RealmTool.m */; };
 		093C7B4520DD117F009E441E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C7B4420DD117F009E441E /* AppDelegate.m */; };
 		093C7B4820DD117F009E441E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C7B4720DD117F009E441E /* ViewController.m */; };
 		093C7B4B20DD117F009E441E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093C7B4920DD117F009E441E /* Main.storyboard */; };
@@ -29,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091CDE6E20F1046F00F79CC8 /* Bill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bill.h; sourceTree = "<group>"; };
+		091CDE6F20F1046F00F79CC8 /* Bill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bill.m; sourceTree = "<group>"; };
+		091CDE7120F1083200F79CC8 /* RealmTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmTool.h; sourceTree = "<group>"; };
+		091CDE7220F1083200F79CC8 /* RealmTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmTool.m; sourceTree = "<group>"; };
 		093C7B4020DD117F009E441E /* notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		093C7B4320DD117F009E441E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		093C7B4420DD117F009E441E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +108,10 @@
 				093C7B4E20DD1180009E441E /* LaunchScreen.storyboard */,
 				093C7B5120DD1180009E441E /* Info.plist */,
 				093C7B5220DD1180009E441E /* main.m */,
+				091CDE6E20F1046F00F79CC8 /* Bill.h */,
+				091CDE6F20F1046F00F79CC8 /* Bill.m */,
+				091CDE7120F1083200F79CC8 /* RealmTool.h */,
+				091CDE7220F1083200F79CC8 /* RealmTool.m */,
 			);
 			path = notepad;
 			sourceTree = "<group>";
@@ -276,9 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091CDE7020F1046F00F79CC8 /* Bill.m in Sources */,
 				093C7B4820DD117F009E441E /* ViewController.m in Sources */,
 				093C7B5320DD1180009E441E /* main.m in Sources */,
 				093C7B4520DD117F009E441E /* AppDelegate.m in Sources */,
+				091CDE7320F1083200F79CC8 /* RealmTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

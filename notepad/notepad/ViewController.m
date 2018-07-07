@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Realm/Realm.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.view setBackgroundColor:[UIColor redColor]];
+    
+    RLMRealm *realm = [RLMRealm defaultRealm];
+//    [realm addOrUpdateObject:nil];
 }
 
 
