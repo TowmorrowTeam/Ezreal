@@ -1,0 +1,17 @@
+platform :ios, '8.0'
+
+#定义要安装的包
+def pods
+pod 'Realm'
+pod 'MJExtension'
+end
+
+#创建targets
+targetsArray = ['notepad','notepadTests']
+
+#循环加载包
+targetsArray.each do |t|
+   target t do
+   pods
+   end
+end
