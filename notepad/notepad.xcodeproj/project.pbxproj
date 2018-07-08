@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		041D1B5520F1CA57003AF045 /* PictureAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041D1B5420F1CA57003AF045 /* PictureAssistant.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		091CDE7020F1046F00F79CC8 /* Bill.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CDE6F20F1046F00F79CC8 /* Bill.m */; };
+		091CDE7320F1083200F79CC8 /* RealmTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CDE7220F1083200F79CC8 /* RealmTool.m */; };
 		093C7B4520DD117F009E441E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C7B4420DD117F009E441E /* AppDelegate.m */; };
 		093C7B4820DD117F009E441E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C7B4720DD117F009E441E /* ViewController.m */; };
 		093C7B4B20DD117F009E441E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093C7B4920DD117F009E441E /* Main.storyboard */; };
@@ -31,6 +33,10 @@
 
 /* Begin PBXFileReference section */
 		041D1B5420F1CA57003AF045 /* PictureAssistant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PictureAssistant.framework; sourceTree = "<group>"; };
+		091CDE6E20F1046F00F79CC8 /* Bill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bill.h; sourceTree = "<group>"; };
+		091CDE6F20F1046F00F79CC8 /* Bill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bill.m; sourceTree = "<group>"; };
+		091CDE7120F1083200F79CC8 /* RealmTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmTool.h; sourceTree = "<group>"; };
+		091CDE7220F1083200F79CC8 /* RealmTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmTool.m; sourceTree = "<group>"; };
 		093C7B4020DD117F009E441E /* notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		093C7B4320DD117F009E441E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		093C7B4420DD117F009E441E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,8 +90,20 @@
 		041D1B5720F1CA7B003AF045 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				041D1B5820F1CDA6003AF045 /* Bill */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		041D1B5820F1CDA6003AF045 /* Bill */ = {
+			isa = PBXGroup;
+			children = (
+				091CDE7120F1083200F79CC8 /* RealmTool.h */,
+				091CDE7220F1083200F79CC8 /* RealmTool.m */,
+				091CDE6E20F1046F00F79CC8 /* Bill.h */,
+				091CDE6F20F1046F00F79CC8 /* Bill.m */,
+			);
+			path = Bill;
 			sourceTree = "<group>";
 		};
 		093C7B3720DD117F009E441E = {
@@ -296,9 +314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091CDE7020F1046F00F79CC8 /* Bill.m in Sources */,
 				093C7B4820DD117F009E441E /* ViewController.m in Sources */,
 				093C7B5320DD1180009E441E /* main.m in Sources */,
 				093C7B4520DD117F009E441E /* AppDelegate.m in Sources */,
+				091CDE7320F1083200F79CC8 /* RealmTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
