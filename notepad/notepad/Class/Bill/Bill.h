@@ -12,7 +12,7 @@
 
 @property NSString *moduleId;            //序号
 @property NSString *type;                //类型(收入/支出)
-@property NSString *date;                //时间
+@property NSTimeInterval date;           //时间
 @property NSString *detailDescription;   //描述
 @property NSString *money;               //金额
 
