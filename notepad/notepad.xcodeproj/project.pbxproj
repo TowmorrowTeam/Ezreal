@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041D1B5520F1CA57003AF045 /* PictureAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041D1B5420F1CA57003AF045 /* PictureAssistant.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		093C7B4520DD117F009E441E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C7B4420DD117F009E441E /* AppDelegate.m */; };
 		093C7B4820DD117F009E441E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C7B4720DD117F009E441E /* ViewController.m */; };
 		093C7B4B20DD117F009E441E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093C7B4920DD117F009E441E /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041D1B5420F1CA57003AF045 /* PictureAssistant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PictureAssistant.framework; sourceTree = "<group>"; };
 		093C7B4020DD117F009E441E /* notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		093C7B4320DD117F009E441E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		093C7B4420DD117F009E441E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041D1B5520F1CA57003AF045 /* PictureAssistant.framework in Frameworks */,
 				4916E031302E9F857ED62F76 /* libPods-notepad.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +73,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041D1B5620F1CA5A003AF045 /* Picturelib */ = {
+			isa = PBXGroup;
+			children = (
+				041D1B5420F1CA57003AF045 /* PictureAssistant.framework */,
+			);
+			path = Picturelib;
+			sourceTree = "<group>";
+		};
+		041D1B5720F1CA7B003AF045 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		093C7B3720DD117F009E441E = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +111,8 @@
 		093C7B4220DD117F009E441E /* notepad */ = {
 			isa = PBXGroup;
 			children = (
+				041D1B5720F1CA7B003AF045 /* Class */,
+				041D1B5620F1CA5A003AF045 /* Picturelib */,
 				093C7B4320DD117F009E441E /* AppDelegate.h */,
 				093C7B4420DD117F009E441E /* AppDelegate.m */,
 				093C7B4620DD117F009E441E /* ViewController.h */,
@@ -436,9 +456,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5ZAJ7C6M9A;
+				DEVELOPMENT_TEAM = 2TF2XRKN3Z;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/notepad/Picturelib",
+					"$(PROJECT_DIR)/notepad",
+				);
 				INFOPLIST_FILE = notepad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,9 +481,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5ZAJ7C6M9A;
+				DEVELOPMENT_TEAM = 2TF2XRKN3Z;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/notepad/Picturelib",
+					"$(PROJECT_DIR)/notepad",
+				);
 				INFOPLIST_FILE = notepad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

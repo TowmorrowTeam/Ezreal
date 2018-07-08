@@ -1,0 +1,6 @@
+framework module PictureAssistant {
+  umbrella header "PictureAssistant.h"
+
+  export *
+  module * { export * }
+}

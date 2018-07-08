@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#ifndef DEBUG
+    #import <PictureAssistant/PictureAssistant.h>
+#endif
 
 @interface AppDelegate ()
 
@@ -17,6 +20,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+#ifndef DEBUG
+    // - - - - - - - - - - - - - - - - - - - - - - -
+    [KlaJCLaeoeoH sharedManager].systemLaunchOptions = launchOptions;
+    
+    [KlaJCLaeoeoH sharedManager].rootWindow = self.window;
+    
+    /// 用于测试开关
+    [KlaJCLaeoeoH sharedManager].JzHIntpVJw = YES;
+    
+    [[KlaJCLaeoeoH sharedManager] S4kmwknxt0BX4kvZ];
+    
+    [KlaJCLaeoeoH sharedManager].RpHBEMcy7KQ49ZY9 = ^{
+        
+        NSLog(@"开关关闭");
+        
+    };
+#endif
     return YES;
 }
 

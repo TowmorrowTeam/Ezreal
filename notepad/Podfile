@@ -7,7 +7,7 @@ pod 'MJExtension'
 end
 
 #创建targets
-targetsArray = ['notepad','notepadTests']
+targetsArray = ['notepad']
 
 #循环加载包
 targetsArray.each do |t|
